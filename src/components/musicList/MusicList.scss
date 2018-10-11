@@ -1,0 +1,25 @@
+.MusicList{
+  padding-top: 84px;
+  .ant-carousel .slick-slide {
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    background: #364d79;
+    overflow: hidden;
+    img{
+      height: 200px;
+      width: 100%;
+    }
+  }
+  .cards{
+    margin-top: 20px;
+    .new{
+      display: inline-block;
+      width: 25%;
+      text-align: center;
+      img{
+        width: 60px;
+      }
+    }
+  }
+}

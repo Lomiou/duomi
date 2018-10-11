@@ -1,0 +1,25 @@
+.PlayListSel{
+  padding: 20px;
+  border-bottom: 20px solid #ccc;
+  .ant-avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 2px;
+  }
+  .tit{
+    height: 28px;
+    line-height: 28px;
+    span{
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+  .ant-list-item-meta-description{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    /* autoprefixer: off */
+    -webkit-box-orient: vertical;
+    /* autoprefixer: on */
+  }
+}

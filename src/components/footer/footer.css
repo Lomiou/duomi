@@ -1,0 +1,39 @@
+.footer{
+  box-sizing: border-box;
+  height: 60px;
+  padding: 0 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #312D2E;
+}
+.footer .song{
+  display: flex;
+}
+.footer .song img{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+.footer .song p{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: left;
+}
+.footer .play{
+  line-height: 50px;
+}
+.footer .play .anticon-play-circle,
+.footer .play .anticon-menu-fold{
+  margin-left: 15px;
+  color: #fff;
+  font-size: 22px;
+}

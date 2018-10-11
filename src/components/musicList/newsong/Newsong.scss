@@ -1,0 +1,17 @@
+.NewSong{
+  padding: 20px;
+  border-bottom: 20px solid #ccc;
+  .ant-avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+  }
+  .newsong_tit{
+    height: 28px;
+    line-height: 28px;
+    span{
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+}
